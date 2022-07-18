@@ -1,0 +1,59 @@
+*{
+    font-family: 'Jost', sans-serif;
+}
+.ram{
+    font-family: 'Signika', sans-serif;
+}
+.head li{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+ul li .headimg{
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.hero{
+    background: url(../images/hero-img-3-1.jpeg);
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.now{
+    background-color: rgb(199, 161, 122);
+}
+.now:hover{
+    background-color: #32323D;
+}
+.dell, .photo{
+    color: rgb(199, 161, 122);
+}
+.dog{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)), url(../images/f-1.jpeg);
+}
+.dog, .dog1, .dog2{
+    background-size: 100% 100%;
+    height: 250px;
+}
+.dog1{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)), url(../images/f-2.jpeg);
+}
+.dog2{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)), url(../images/f-3.jpeg);
+}
+.page, .shop, .header{
+    background: rgb(1, 1, 3);
+}
+.drum{
+    width:100%;
+}
+.drag{
+    background: #13131A;
+}
+.hj{
+    width: 150px;
+}
+.product, .banner{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)), url(../images/footer-3-1.jpeg);
+}
+.link{
+    padding-left: 0px;
+}

@@ -1,0 +1,498 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    color: white;
+    background-color: #272727;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-family: 'Heebo', sans-serif;
+}
+.hero{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)), url(../Images/portfolio-3.png);
+    position: relative;
+    padding: 10px;
+    height: 700px;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    z-index: 100;
+}
+.hero .header img{
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+.header .icon{
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    color: rgb(235, 222, 222);
+    font-size: 20px;
+}
+.header ul li{
+    display: none;
+}
+.hero .header img, .link .united img{
+    width: 100px;
+}
+.aboutus .arrowimg img{
+    width: 100%;
+}
+.hero .theme{
+    padding: 10px;
+    text-align: center;
+    margin: 200px 0px 0px 0px;
+}
+.hero .theme input[type="button"], .aboutus .about input[type="button"], .block .plana input[type="button"], .block .planb input[type="button"], .block .planc input[type="button"], .blog .news input[type="button"]{
+    color: rgb(0, 0, 0);
+    background-color: #FBB909;
+    border: none;
+    height: 40px;
+    width: 150px;
+    font-family: 'Barlow', sans-serif;
+}
+.hero .theme input[type="button"]:hover, .aboutus .about input[type="button"]:hover, .block .plana input[type="button"]:hover, .block .planb input[type="button"]:hover, .block .planc input[type="button"]:hover, .blog .news input[type="button"]:hover, .back .call input[type="button"]:hover, .link .app input[type="button"]:hover{
+    background-color: rgb(51, 50, 50);
+    color: #FBB909;
+}
+.everyone, .blog .outlook{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 50px;
+}
+.everyone .source{
+    padding: 30px;
+    width: 160px;
+}
+.doublecot img{
+    height: 50px;
+    width: 50px;
+}
+.everyone .doublecot{
+    padding-top: 28px;
+}
+.a{
+    color: #FBB909;
+    font-family: 'Barlow', sans-serif;
+}
+.aboutus, .service, .build, .happy, .port, .project, .link, .link .footer, .pricing, .block, .blog{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.aboutus .arrowimg{
+    margin: 30px 0px 0px 0px;
+}
+.build{
+    margin:20px 0px 0px 0px;
+}
+.build .architect{
+    background: #323232;
+    padding: 20px;
+    margin: 20px 0px 0px 0px;
+}
+.build .architect:hover{
+    background: #FBB909;
+    color: black;
+}
+.happy{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.happy .client{
+    width: 300px;
+    margin: 50px 0px 0px 0px;
+}
+.portfolio .interior .img1{
+    height: 200px;
+    background: url(../Images/erection-banner-258a4.png) center no-repeat;
+    background-size: 100% 100%;
+}
+.portfolio .interior .img2{
+    height: 200px;
+    background: url(../Images/portfolio-5.png) center no-repeat;
+    background-size: 100% 100%;
+}
+.portfolio .interior .img1:hover, .portfolio .interior .img2:hover{
+    background-size: 120% 120%;
+    background-position: center;
+    transition: 1s;
+}                                                                           /** hover effects **/
+.portfolio .interior{
+    background: #323232;
+    margin: 0px 0px 20px 0px;
+    padding-bottom: 20px;
+    width: 265px;
+}
+.portfolio .port{
+    padding: 15px;
+}
+.portfolio .interior p, .portfolio .interior h3{
+    margin: 10px 0px 5px 20px;
+} 
+.project .reliability img, .project .work img, .project .modern img{
+    width: 40px;
+}
+.project .reliability h3, .project .work h3, .project .modern h3{
+    margin: 15px 0px 15px 0px;
+}
+.project .reliability, .project .work, .project .modern{
+    margin: 15px 0px 0px 0px;
+}
+.pricing{
+    margin: 80px 0px 50px 0px;
+}
+.pricing .plan{
+    margin-bottom: 10px;
+}
+.block .plana, .block .planb, .block .planc{
+    width: 300px;
+    background: #323232;
+    padding: 30px 20px 30px 20px;
+    margin-bottom: 20px;
+}
+.block .plana .fa-check, .block .plana .fa-times, .block .planb .fa-check, .block .planb .fa-times, .block .planc .fa-check, .block .planc .fa-times, .portfolio{
+    padding: 10px;
+}
+.block .plana ul, .block .planb ul, .block .planc ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+.back{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)), url(../Images/portfolio-8-870x520.png) no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+    padding: 60px 0px 60px 0px;
+    margin: 50px 0px 80px 0px;
+}
+.back .call{
+    background: #323232;
+    padding: 50px 20px 50px 20px;
+}
+.back .call input[type="text"], .back .call input[type="number"], .back .call select, .back .call input[type="button"]{
+    width: 280px;
+    height: 40px;
+    margin-top: 20px;
+    padding:0px 20px;
+    font-family: 'Barlow', sans-serif;
+}
+.back .call input[type="button"]{
+    color: rgb(0, 0, 0);
+    background-color: #FBB909;
+    border: none;
+    font-family: 'Barlow', sans-serif;
+}
+.blog{
+    background: #323232;
+}
+.blog .news{
+    background: url(../Images/blog-banner.png);
+    height: 400px;
+    background-size: 100% 100%;
+    padding: 20px;
+    width: 300px;
+}
+.outlook div{
+    margin: 0px 0px 60px 0px;
+}
+.outlook .a{
+    margin: 0px 0px 10px 0px;
+}
+.link .contact ul li, .link .page ul li{
+    padding-top: 20px;
+}
+.link .united, .link .contact, .link .page, .link .app{
+    margin-top: 60px;
+}
+.link .app input[type="button"]{
+    color: rgb(0, 0, 0);
+    background-color: #FBB909;
+    border: none;
+    width: 300px;
+    height: 40px;
+    margin: 30px 0px 50px 0px;
+    font-family: 'Barlow', sans-serif;
+}
+.link .page ul li a{
+    text-decoration: none;
+    color: white;
+}
+.fa-pencil-ruler, .fa-drafting-compass, .fa-tools{
+    font-size: 50px;
+}
+/* code for medium moile view */
+@media only screen and (min-width:375px){
+    .happy .client{
+        width: 400px;
+    }
+    .back .call input[type="text"], .back .call input[type="number"], .back .call select, .back .call input[type="button"]{
+        width: 330px;
+        height: 50px;
+    }
+    .link .app input[type="button"]{
+        width: 355px;
+    }
+    .portfolio .interior{
+        width: 320px;
+    }
+    .everyone .source{
+        width: 180px;
+    }
+    .everyone .doublecot{
+        padding: 28px 10px 0px 10px;
+    }
+    .block .plana, .block .planb, .block .planc{
+        width: 352px;
+    }
+    .blog .news{
+        width: 353px;
+    }
+}
+/* code for large moile view */
+@media only screen and (min-width:425px){
+    .everyone .source{
+        width: 230px;
+    }
+    .portfolio .interior{
+        width: 370px;
+    }
+    .back .call input[type="text"], .back .call input[type="number"], .back .call select, .back .call input[type="button"]{
+        width: 380px;
+    }
+    .link .app input[type="button"]{
+        width: 405px;
+    }
+    .block .plana, .block .planb, .block .planc{
+        width: 405px;
+    }
+    .blog .news{
+        width: 404px;
+    }
+}
+/* code for tablet view */
+@media only screen and (min-width:768px){
+    .hero .theme{
+        padding-left: 40px;
+    }
+    .hero .theme{
+        text-align: left;
+    }
+    .hero .theme input[type="button"], .aboutus .about input[type="button"], .block .plana input[type="button"], .block .planb input[type="button"], .block .planc input[type="button"], .blog .news input[type="button"]{
+        height: 50px;
+        width: 160px;
+    }
+    .everyone{
+        background: #272727;
+        width: 500px;
+        position: relative;
+        top: -100px;
+        left: 268px;
+        padding: 10px;
+    }
+    .everyone .source, .happy .client{
+        width: 350px;
+    }
+    .aboutus, .service, .build, .happy, .portfolio, .project, .blog, .link, .pricing, .block, .back{
+        padding: 30px;
+    }
+    .aboutus .about{
+        width: 380px;
+        margin-right: 20px;
+    }
+    .aboutus .arrowimg{
+        width: 300px;
+        margin-top: -1px;
+    }
+    .build .architect{
+        width: 334px;
+        margin-right: 20px;
+    }
+    .portfolio .interior{
+        width: 308px;
+       margin-left:20px;
+    }
+    .project .reliability, .project .work, .project .modern{
+        width: 320px;
+        margin-left: 20px;
+    }
+    .back .call input[type="text"], .back .call input[type="number"], .back .call select, .back .call input[type="button"]{
+        width: 660px; 
+    }
+    .blog .news{
+        width: 700px;
+        height: 800px;
+    }
+    .link .app, .link .app input[type="button"]{
+        width: 300px;
+    }
+    .link .united{
+        width: 350px;
+        margin-right: 30px;
+    }
+    .link .page{
+        width: 380px;
+    }
+    .link .contact ul, .link .page ul{
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .block .plana, .block .planb, .block .planc{
+        width: 332px;
+        margin-right: 20px;
+    }
+    .footer p{
+        margin-left: 80px;
+        margin-right: 5px;
+    }
+}
+/* code for small pc view */
+@media only screen and (min-width:1024px){
+    .header{
+        background: none;
+    }
+    .header .icon{
+        display: none;
+    }
+    .header .menu{
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+    .header .menu li{
+        display: inline;
+       margin: 0px 15px 0px 15px;
+   }
+   .header .menu li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    }
+    .header .menu li a:hover, .menu ul li a:hover{
+        color: #FBB909;
+    }
+    .everyone{
+        width: 450px;
+        left: 572px;
+        padding: 20px;
+    }
+    .everyone .source{
+        width: 300px;
+    }
+    .aboutus, .service, .build, .happy, .portfolio, .project, .blog, .link, .pricing, .block{
+        padding: 50px;
+    }
+    .aboutus .about{
+        width: 550px;
+        margin-right: 20px;
+    }
+    .aboutus .arrowimg, .link .app{
+        width: 350px;
+    }
+    .service .our, .pricing .plan, .call, .link .united{
+        width: 400px;
+    }
+    .service .lorem, .pricing .lorem{
+        width: 500px;
+    }
+    .build .architect{
+        width: 442px;
+    }
+    .happy .client{
+        width: 225px;
+    }
+    .portfolio .interior{
+        width: 420px;
+    }
+    .portfolio .interior .img2, .portfolio .interior .img1{
+        height: 300px;
+    }
+    .project .reliability, .project .work, .project .modern{
+        width: 280px;
+        margin-left: 20px;
+    }
+    .block .plana, .block .planb, .block .planc{
+        width: 288px;
+    }
+    .back .call input[type="text"], .back .call input[type="number"], .back .call select, .back .call input[type="button"]{
+        width: 360px; 
+    }
+    .blog .news{
+        height: 1000px;
+        width: 920px;
+    }
+    .outlook div{
+        width: 350px;
+        margin-right: 62px;
+    }
+    .link .page{
+        width: 430px;
+    }
+    .footer p{
+        margin-left: 180px;
+    }
+}
+/* code for large pc view */
+@media only screen and (min-width:1440px){
+    .everyone{
+        width: 550px;
+        left: 888px;
+    }
+    .everyone .source{
+        width: 390px;
+    }
+    .aboutus .about{
+        width: 770px;
+        margin-right: 95px;
+    }
+    .aboutus .arrowimg{
+        width: 450px;
+        margin-top: -50px;
+        position: relative;
+    }
+    .service .our, .pricing .plan{
+        width: 580px;
+    }
+    .service .lorem, .pricing .lorem{
+        width: 750px;
+    }
+    .build .architect{
+        width: 425px;
+    }
+    .happy .client{
+        width: 320px;
+    }
+    .portfolio .interior{
+        width: 620px;
+    }
+    .portfolio .interior .img2, .portfolio .interior .img1{
+        height: 400px;
+    }
+    .project .reliability, .project .work, .project .modern{
+        width: 400px;
+    }
+    .block .plana, .block .planb, .block .planc{
+        width: 420px;
+    }
+    .blog .news{
+        height: 620px;
+        width: 340px;
+    }
+    .blog .outlook{
+        width: 1000px;
+    }
+    .link .united, .link .contact, .link .app, .link .page{
+        width: 300px;
+    }
+    .footer p{
+        margin-left: 380px;
+    }
+}

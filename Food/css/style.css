@@ -1,0 +1,770 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    z-index: 100;
+}
+.hero .header img{
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+.header .icon{
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    color: black;
+    font-size: 20px;
+}
+.header ul li{
+    display: none;
+}
+.hero{
+    background: url(../images/banner-bg.jpg);
+    position: relative;
+    padding: 10px;
+    height: 700px;
+}
+.hero .main{
+    text-align: center;
+    margin: 150px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center; 
+}
+.hero .main input[type="button"]{
+    color: white;
+    background-color: #CC3333;
+    border: none;
+    height: 40px;
+    width: 105px;
+    margin: 30px 0px 0px -190px;
+}
+.hero .main input[type="button"]:hover ,.informed .mail input[type="button"]:hover, .aboutus input[type="button"]:hover, .link .sub button:hover {
+    background-color: rgb(51, 50, 50);
+}
+.hero .main .watch{
+    margin: -35px 0px 0px 180px;
+    font-weight: 500;
+}
+.off{
+    margin: 30px 0px 0px 0px;
+}
+.off img{
+    width: 200px;
+    height: 200px;
+}
+.hero .playbutton{ 
+    margin: -43px 0px 0px 130px;
+}
+.best .playbutton .fa-caret-right{
+    color: white;
+    font-size: 30px;
+    margin: 8px 0px 0px 5px;
+}
+.quality .food .fa-caret-right{
+    color: white;
+    font-size: 30px;
+    margin: 8px 0px 0px 17px;
+}
+.hero .main p, .discover .circle h3, .link .link1 h3,.insta h3{ 
+    margin-top: 30px;
+}
+.a{
+    font-family: 'Lobster', cursive;
+    color: #CC3333;
+    font-weight: bold;
+    font-size: large;     
+}
+.best{
+    margin: -110px 0px 0px 0px;
+}
+.main span{
+    color:#CC3333 ;
+    text-decoration: underline;
+}
+.discover{
+    margin: 50px 0px 50px 0px;
+}
+.discover .circle{
+    text-align: center;
+    padding: 20px;
+    border: 1px solid;
+    height: 300px;
+    margin: 25px 10px 10px 10px;
+    border-color: rgba(187, 184, 184, 0.425);
+}
+.discover .circle span{
+    font-weight: 500;
+}
+.discover .circle .gol{
+    width: 80px;
+    height: 80px;
+    border-radius: 100% 100%;
+    background: #FFF5EF;
+    margin: 0px 90px; 
+}
+.discover .circle .gol img{
+    margin: 25px 0px;
+}
+.informed{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)), url(../images/ad-ban-bg.png);
+    height: 250px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.informed h2{
+    margin-top: 40px;
+    text-align: left;
+}
+.informed input[type="email"], .sub input[type="email"]{
+    margin: 20px 0px 0px 0px;
+    height: 40px;
+    width: 69%;
+    padding: 10px;
+}
+.informed input[type="button"], .sub button{
+    color: white;
+    background-color: #CC3333;
+    border: none;
+    height: 40px;
+    width: 25%; 
+}
+.about .skills{
+    padding: 10px;
+    margin-top: 40px;
+}
+.about .skills img{
+    width: 100%;
+}
+.aboutus{
+    padding: 15px;
+}
+.aboutus{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.aboutus .square{
+    height: 50px;
+    width: 50px;
+    background:#FFF5EF ;
+    margin-top: 50px;
+    float: left;
+}
+.aboutus img{
+    margin: 10px 10px;
+}
+.aboutus h2{
+    margin: 25px -70px;
+}
+.aboutus .a1 .z1, .a2 .z1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 20px;
+    margin-top: 20px;
+}
+.aboutus input[type="button"]{
+    color: white;
+    background-color: #CC3333;
+    border: none;
+    height: 40px;
+    width: 90px;
+}
+.menu {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.menu p,h2{
+text-align: center;
+} 
+.menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.menu ul li,.menu ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+.menu ul li a{
+    margin-left: 25px;
+}
+.menu ul li img{
+    display: block;
+}
+.menu .x1{
+    margin-top: 20px;
+    background: whitesmoke ;
+}
+.menu .x1 p, .footer .c{
+    color: #CC3333;
+    margin-top: 10px;
+}
+.order{
+    margin-top: 40px; 
+}
+.order .n, .quality h2, .customer .our h2, .menu .x1 .y, .menu .x1 p, .menu .x1, .news{
+    text-align: left;
+}
+.order .order2{
+    background: url(../images/app-bg.png);
+}
+.order3 img{
+    width: 135px;
+}
+.quality{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)), url(../images/subscribe-bg.png);
+    color: white;
+    padding: 50px 10px 0px 10px;/* t r b l */
+    height: 350px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.quality h2{
+    margin: 15px 0px;
+}
+.quality p{
+    margin: 5px 0px;
+}
+.quality .playbutton, .hero .playbutton{
+    height: 45px;
+    width: 45px;
+    border-radius: 100% 100%;
+    background-color: #CC3333;
+}
+.time{
+    margin: -60px 10px 0px 10px;
+    padding: 20px;
+    background: whitesmoke;
+    text-align: center;
+}
+.time .a{
+    margin-bottom: 5px;
+}
+.time .check{
+    margin: 30px 0px 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.time .check .ava{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px dashed;
+    padding: 5px;
+    justify-content: space-between;
+}
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+.team .jim, .mik, .mike{
+    margin: 20px 0px 15px 0px;
+    background: whitesmoke;
+}
+.team div hr{
+    margin: 0px 80px 0px 80px;
+}
+.team div h3{
+    margin: 10px 0px 10px 0px;
+}
+.team div p{
+    margin-bottom: 10px;
+}
+.banner{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)), url(../images/bg.png);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 20px 40px 20px;
+    margin: 30px 0px 30px 0px;
+}
+.banner div img{
+    width: 100px;
+}
+.banner div{
+    margin: 10px 0px 10px 0px;
+}
+.banner .code{
+    margin: -40px 0px 0px 185px;
+}
+.customer, .news .blog .ple, .news .blog2 .ple, .news .blog3 .ple, .team, .link, .order .order2, .order, .customer .our, .menu .x1 .y, .menu{
+    padding: 10px;
+}
+.customer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.customer .our{
+    border-left:2px solid #CC3333;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.customer .a{
+    text-align: center;
+    margin: 30px 0px 10px 0px;
+}
+.customer .our p,h3, .insta2 div{
+    margin-top: 10px;
+}
+.customer .our span{
+    margin-top: 12px;
+}
+.customer .img img, .blog img, .blog2 img, .blog3 img, .team div img, .x1 img, .mail{
+    width: 100%;
+}
+.news{
+    background:#FFF9F4 ;
+    padding: 10px;
+    padding-bottom: 80px;
+    margin: 50px 0px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.sub button{
+    margin-bottom: 30px;
+}
+.news .a, .customer .a, .team .a, .menu .a{
+    margin: 0px 70px 0px 60px;
+}
+.news .blog, .news .blog2, .news .blog3{
+    background: white;
+    margin-top: 30px;
+}
+.blog hr, .blog2 hr, .blog3 hr{
+    margin: 15px 0px 15px 0px;
+}
+.link{
+    background: url(../images/footer-bg.png);
+    color: white;
+}
+.link .united ul li{
+    padding: 10px;
+}
+.link .link1 ul li{
+    padding: 10px;
+}
+.link .united{
+    margin-top: 30px;
+}
+.link .link1 hr, .insta  hr,.sub hr{
+    margin: 0px 250px 20px 0px;
+}
+.link .lorem{
+    margin: 10px 0px 20px 0px;
+}
+.insta .insta2 {
+    padding:20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer{
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid;
+}
+.mobile .mobile1{
+    display: none;
+}
+.mobile .mobile1{
+    text-decoration: none;
+    list-style-type: none;
+}
+.hero .playbutton, .quality .playbutton{
+    animation: 1.5s linear 0s infinite normal pulse;
+}
+.hero .playbutton:hover, .quality .playbutton:hover{
+    animation: none;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(0.9);
+        box-shadow: 0px 1px 0px 3px #CC3333, 0px 0px 0px 0px #cc4a4a;
+    }
+    30% {
+        box-shadow: 0px 1px 0px 3px #CC3333, 0px 0px 0px 5px #cb6868;
+
+    }
+    70% {
+        box-shadow: 0px 1px 0px 3px #CC3333, 0px 0px 0px 10px #d37f7f;
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: 0px 1px 0px 3px #CC3333, 0px 0px 0px 15px #dca8a8;
+    }
+    
+}
+/* code for medium moile view */
+@media only screen and (min-width:375px){
+    .best .playbutton{
+        margin: -43px 0px 0px 150px;
+    }
+    .off img{
+        width: 250px;
+        height: 250px;
+    }
+    .discover .circle .gol{
+        margin: 0px 125px;
+    }
+    .order3 img{
+        width: 163px;
+    }
+    .banner div img{
+        width: 150px;
+    }
+    .link .link1 hr, .insta hr, .sub hr{
+        margin: 0px 300px 20px 0px;
+    }
+}
+/* code for large mobile view */
+@media only screen and (min-width:425px){
+    .hero .main input[type="button"]{
+        margin: 30px 0px 0px -250px;
+    }
+   .team .a, .news.a{
+       margin: 0px 0px 0px 20px;
+   }
+   .team h2, .news h2{
+       margin: 0px 90px 0px 140px;
+   }
+   .insta2 div{
+       width: 100px;
+   }
+    .insta2 img{
+        width: 100%;
+    }
+    .link .link1 hr, .insta  hr,.sub hr{
+        margin: 0px 350px 20px 0px;
+    }
+    .order2 img{
+        width: 190px;
+    }
+}
+/* code for tablet view */
+@media only screen and (min-width:768px){
+    .hero{
+        height: 450px;
+    }
+    .best{
+        width: 400px;
+        margin: 0px 0px 0px -80px;
+    }
+    .off{
+        margin: -100px 0px 0px 30px;
+    }
+    .best{
+        margin: -110px 0px 0px 0px;
+    }
+    .discover{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .discover .circle{
+        width: 360px;
+    }
+    .z1 p{
+        margin: 35px 0px 0px -105px;
+    }
+    .z1 h4{
+        margin-top: 10px;
+    }
+    .aboutus input[type="button"]{
+        margin: 120px 0px 0px -440px;
+    }
+    .x1{
+        width: 238px;
+        height: 370px;
+    }
+    .order3{
+        width: 550px;
+    }
+    .food{
+        width: 350px;
+        margin: 20px 0px 0px -390px;
+    }
+    .time{
+        width: 350px;
+        margin: -250px 0px 0px 410px;
+    }
+    .meet{
+        width: 520px;
+    }
+    .team .jim{
+        width: 230px;   
+    }
+    .team .mik, .team .mike{
+        width: 230px;
+        margin-left: 15px;
+    }
+    .customer .our{
+        width: 400px;
+        margin: 80px 0px 0px -430px;
+    }
+    .customer .img{
+        width: 200px;
+        margin: 80px 0px 0px 20px;
+    }
+    .news .a{
+        margin: 0px 0px 10px 160px;
+    }
+    .lat{
+        width: 400px;
+    }
+    .news .blog{
+        width: 350px;
+    }
+    .news .blog2, .news .blog3{
+        width: 350px;
+        margin: 25px 0px 0px 15px;
+    }
+    .informed .deals{
+        width: 375px;
+        padding-top: 20px;
+    }
+    .informed .mail{
+        width: 370px;
+        padding-top: 70px;
+    }  
+    .banner .code{
+        margin: 10px 0px 0px 0px;
+    }
+    .book{
+        margin: 0px 0px 0px 170px;
+    }
+    .link .link1 hr, .insta  hr,.sub hr{
+        margin: 0px 700px 20px 0px;
+    }
+    .link .united{
+        border: 1px solid rgb(49, 45, 45);
+        width: 180px;
+    }
+    .link .link1{
+        width: 180px;
+        margin: -330px 0px 0px 190px;
+    }
+    .link .link1 ul{
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .insta{
+        width: 180px;
+        margin: -370px 0px 0px 370px;
+    }
+    .insta .insta2 div{
+        width: 40px;
+    }
+    .link .sub{
+        width: 190px;
+        margin: -205px 0px 150px 555px;
+    }
+    .link .link1 hr, .insta  hr,.sub hr{
+        margin: 0px 140px 20px 0px;
+    }
+}
+/* code for small pc view */
+@media only screen and (min-width:1024px){
+    .header .icon{
+        display: none;
+    }
+    .header .menu{
+        display: block;
+        position: absolute;
+        top: -40px;
+        right: 20px;
+        font-size: 16px;
+    }
+    .header .menu li{
+        display: inline;
+        color: black;
+        margin: 0px 15px 0px 15px;
+   }
+   .menu li img{
+       margin: 0px 34px 10px 0px;
+   }
+   .header .menu li a{
+        text-decoration: none;
+        color: black;
+    }
+    .header .menu li a:hover, .menu ul li a:hover{
+        color: #CC3333;
+    }
+    .hero{
+        height: 700px;
+    }
+   .best{
+       margin: 0px 0px 0px -60px;
+       font-size: 22px;
+   }
+   .off{
+       margin: 30px 0px 0px 150px;
+   }
+   .off img{
+       height: 400px;
+       width: 400px;
+   }
+    .discover .circle{
+        width: 236px;
+        height: 350px;
+    }
+    .discover .circle .gol{
+        margin: 0px 0px 30px 60px;
+    }
+    .informed .deals{
+        width: 500px;
+        padding-top: 50px;
+    }
+    .informed .mail{
+        width: 500px;
+        padding-top: 80px;
+    } 
+    .about .skills{
+        width: 500px;
+    }
+    .about .aboutus{
+        width: 500px;
+        margin: -500px 0px 100px 500px;
+    }
+    .menu .special{
+        width: 500px;
+    }
+    .menu ul{
+        width: 800px;
+        margin: 30px 0px 10px 0px;
+    }
+    .x1{
+        width: 300px;
+        height: 420px;
+    }
+    .order .order2{
+        padding: 50px;
+    }
+    .order .order3{
+        width: 500px;
+        margin-top: 60px;
+    }
+    .mobile .mobile1{
+        display: block;
+        width: 400px;
+        margin: -350px 0px 0px 550px;
+    }
+    .mobile .mobile1 li{
+        display: inline-block;
+   }
+    .quality .food{
+        margin: 20px 0px 0px -650px;
+    }
+    .time{
+        margin: -250px 0px 100px 650px;
+    }
+    .team .meet{
+        width: 850px;
+        margin: 0px 0px 20px 0px;
+    }
+    .team .jim, .team .mik, .team .mike{
+        width: 300px;
+    }
+    .banner div img{
+        height: 40px;
+        width: 200px;
+    }
+    .banner{
+        padding-top: 90px;
+        height: 250px;
+        margin: 70px 0px 70px 0px;
+    }
+    .customer .book{
+        width: 990px;
+        margin: 0px 0px 20px 50px;
+    }
+    .customer .our{
+        width: 590px;
+        margin: 30px 0px 0px 50px;
+        padding: 30px;
+        padding-right: 80px;
+    }
+    .customer .img{
+        margin: 30px 0px 0px 30px;
+    }
+    .news .lat{
+        width: 800px;
+        margin: 50px 0px 20px 0px;
+    }
+    .news .lat .a{
+        margin: 0px 0px 0px 380px;
+    }
+    .news .blog, .news .blog2, .news .blog3{
+        width: 300px;
+    }
+    .link .link1{
+        width: 300px;
+    }
+    .link .insta{
+        width: 250px;
+        margin: -370px 0px 0px 490px;
+    }
+    .insta .insta2 div{
+        width: 60px;
+    }
+    .link .sub{
+        width: 250px;
+        margin: -240px 0px 170px 750px;
+    }
+    .link .link1 hr, .insta  hr,.sub hr{
+        margin: 0px 210px 20px 0px;
+    }  
+}
+/* code for large pc view */
+@media only screen and (min-width:1440px){
+    .discover, .informed, .about, .menu, .order, .team, .banner, .news, .link{
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    .time{
+        margin: -270px 0px 0px 900px;
+    }
+    .link .united ul{
+        text-decoration: none;
+        list-style-type: none;
+    }
+}

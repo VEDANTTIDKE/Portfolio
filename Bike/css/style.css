@@ -1,0 +1,66 @@
+*{
+    font-family: 'Coda Caption', sans-serif;
+}
+.hero{
+    background: url(../images/bg-5.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.eng{
+    width: 170px;
+}
+.dad{
+    color: #DD0707;
+}
+.now{
+    background-color: #DD0707;
+}
+.now:hover{
+    background-color: transparent;
+}
+.acer, .now{
+    width: 250px;
+    height: 50px;
+}
+.drum, .mode{
+    width:100%;
+}
+.acer{
+    background-color: black;
+    color: white;
+}
+.acer:hover{
+    background-color: transparent;
+    color: black;
+}
+.feature{
+    background: black;
+}
+.bike{
+    width: 260px;
+}
+.puma{
+    color: black;
+}
+.ride{
+    background: url(../images/bg-7.jpg);
+    background-size: 100% 100%;
+}
+.link{
+    padding-left: 0px;
+}
+.link li{
+    margin-bottom: 15px;
+}
+.banner{
+    background: black;
+}
+/* .contact input::placeholder{
+    color: white;
+}
+#banner{
+    background-color: #000000;
+}
+.fa-dot-circle{
+    color: #D60704;
+} */
